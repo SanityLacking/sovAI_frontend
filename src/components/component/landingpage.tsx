@@ -3,6 +3,8 @@
  * @see https://v0.dev/t/csYx3HTwdBa
  */
 import Link from "next/link"
+import Image from 'next/image'
+
 import { CardHeader, CardContent, Card } from "@/components/ui/card"
 
 export function landingpage() {
@@ -57,7 +59,7 @@ export function landingpage() {
                 </div>
               </div>
             </div>
-            <img
+            <Image
               alt="Hero"
               className="mx-auto aspect-[3/1] overflow-hidden rounded-t-xl object-cover"
               height="300"
@@ -110,7 +112,7 @@ export function landingpage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
-                    Just paste your text and click summarize. It's that simple!
+                    Just paste your text and click summarize. Its that simple!
                   </p>
                 </CardContent>
               </Card>
@@ -152,7 +154,7 @@ export function landingpage() {
 }
 
 
-function AppleIcon(props) {
+function AppleIcon(props:any) {
   return (
     <svg
       {...props}

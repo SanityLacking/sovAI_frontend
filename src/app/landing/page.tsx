@@ -35,7 +35,7 @@ export default function Home() {
                 <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16">
                   <div>
                     <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
-                      AI Summarizer: Your Text, Simplified
+                      Sov AI: Your Text, Simplified
                     </h1>
                   </div>
                   <div className="flex flex-col items-start space-y-4">
@@ -75,10 +75,10 @@ export default function Home() {
                       Key Features
                     </div>
                     <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                      Streamline Your Reading with AI Summarizer
+                      Streamline Your Reading with Sov AI
                     </h2>
                     <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                      Discover how AI Summarizer can help you save time, increase understanding, and stay on top of
+                      Discover how Sov AI can help you save time, increase understanding, and stay on top of
                       information overload.
                     </p>
                   </div>
@@ -111,7 +111,7 @@ export default function Home() {
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-gray-500 dark:text-gray-400">
-                        Just paste your text and click summarize. It's that simple!
+                        Just paste your text and click summarize. Its that simple!
                       </p>
                     </CardContent>
                   </Card>
@@ -153,7 +153,7 @@ export default function Home() {
 }
 
 
-function AppleIcon(props) {
+function AppleIcon(props:any) {
     return (
       <svg
         {...props}
