@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { redirect } from 'next/navigation';
-import { landingpage } from '@/components/component/landingpage'
+// import { landingpage } from '@/components/component/landingpage'
 export default function Home() {
   return (
     redirect('/landing')
