@@ -75,7 +75,7 @@ export default function Home() {
                   alt="Hero"
                   className="mx-auto aspect-[3/1] overflow-hidden rounded-t-xl object-cover"
                   height="300"
-                  src="/jan-kahanek-fVUl6kzIvLg-unsplash.svg"
+                  src="/jan-kahanek-fVUl6kzIvLg-unsplash.jpg"
                   width="1270"
                 />
               </div>
